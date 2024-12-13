@@ -1,0 +1,14 @@
+.admin-header {
+  background-color: #273b51; 
+  color: #ffffff; 
+}
+
+.admin-header .btn-dark {
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #ffffff;
+  border: none; 
+}
+
+.admin-header .btn-dark:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

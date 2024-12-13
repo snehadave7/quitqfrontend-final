@@ -1,0 +1,17 @@
+.offcanvas-right .offcanvas-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 400px; 
+  max-width: 100%;
+}
+
+.offcanvas-right .offcanvas-content {
+  height: 100%;
+  border-radius: 0;
+}
+
+.offcanvas-right .offcanvas-body {
+  overflow-y: auto;
+}

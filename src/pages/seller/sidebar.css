@@ -1,0 +1,42 @@
+.menu-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #cdd0d5; 
+  color: #000; 
+}
+
+.sidebar-heading:hover {
+  color: #0d6efd; 
+  transition: color 0.3s;
+}
+.offcanvas-custom {
+  background-color: #273b51; 
+  color: #ffffff;
+}
+
+.offcanvas-custom .offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.offcanvas-custom .menu-item {
+  color: #ffffff; 
+}
+
+.offcanvas-custom .menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.sidebar-custom {
+  background-color: #273b51;
+  color: #ffffff; 
+}
+
+.sidebar-custom .menu-item {
+  color: #ffffff; 
+}
+
+.sidebar-custom .menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}

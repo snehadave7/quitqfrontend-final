@@ -1,0 +1,10 @@
+.selected-address {
+  border: 2px solid green;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.highlight-total-price {
+  background-color: #d4edda;
+  color: green;
+}

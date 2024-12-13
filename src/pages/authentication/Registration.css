@@ -1,0 +1,111 @@
+.registration-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://png.pngtree.com/thumb_back/fh260/background/20230616/pngtree-e-commerce-in-style-3d-render-of-smartphone-for-shopping-and-image_3612998.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.registration-card {
+  background: #fff; 
+  border-radius: 12px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+  max-width: 350px;
+  width: 900px; 
+  padding: 30px 30px; 
+  animation: fadeIn 0.5s ease-in-out; 
+  margin: 0 auto; 
+  position: relative;
+  z-index: 2;
+  max-height: 95vh; 
+  overflow-y: auto;
+}
+
+.registration-card h2 {
+  font-weight: 700;
+  font-size: 1.5rem; 
+}
+
+.form-control-lg {
+  border-radius: 8px; 
+  border: 1px solid #ddd; 
+  box-shadow: none; 
+  padding: 10px 15px;
+  font-size: 16px; 
+}
+
+.btn-lg {
+  border-radius: 8px; 
+  padding: 10px 20px; 
+}
+
+.btn-outline-primary {
+  border: 2px solid #273b51; 
+  color: #273b51; 
+  transition: all 0.3s ease-in-out; 
+}
+
+.btn-outline-primary:hover {
+  background: #273b51;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .registration-card {
+    padding: 15px 20px;
+    max-width: 90%; 
+    max-height: 80vh; 
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.select-control-lg {
+  border-radius: 8px; 
+  border: 1px solid #ddd; 
+  box-shadow: none;
+  padding: 10px 15px; 
+  font-size: 16px; 
+  width: 100%;
+  appearance: none;
+  background: #fff; 
+  color: #495057; 
+}
+
+.select-control-lg::after {
+  content: '▾'; 
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #aaa; 
+}
+
+.select-control-lg:focus {
+  border-color: #80bdff; 
+  outline: none;
+  box-shadow: 0 0 5px rgba(128, 189, 255, 0.5); 
+}

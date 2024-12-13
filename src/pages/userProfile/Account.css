@@ -1,0 +1,48 @@
+
+.custom-sidebar .offcanvas-body {
+  background-color: #343a40; 
+  color: #fff; 
+  padding: 20px;
+}
+
+.custom-sidebar .list-group-item {
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-sidebar .list-group-item:hover {
+  background-color: #495057;
+  transform: translateX(5px);
+}
+
+.custom-sidebar .offcanvas-header {
+  background-color: #23272b; 
+  color: #fff;
+  border-bottom: 1px solid #444;
+}
+
+.custom-sidebar .btn-close {
+  color: #fff;
+}
+
+button.m-3 {
+  font-size: 1rem;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.m-3:hover {
+  background-color: #0056b3;
+}
+
+.custom-sidebar {
+  transition: transform 0.3s ease-in-out;
+}
